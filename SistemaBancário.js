@@ -1,7 +1,7 @@
 import Banco from './Banco.js';
 import Cliente from './Cliente.js';
 import ContaCorrente from './ContaCorrente.js';
-import ContaPoupanca from './ContaPoupança.js';
+import ContaPoupanca from './ContaPoupanca.js';
 
 let Nubank = new Banco("Nubank", "001");
 
@@ -19,5 +19,5 @@ Nubank.adicionarConta(poupancaPedro);
 correnteJoão.deposito(250);
 poupancaPedro.deposito(100);
 
-correnteJoão.sacar(500);
+correnteJoão.sacar(400);
 poupancaPedro.sacar(50);

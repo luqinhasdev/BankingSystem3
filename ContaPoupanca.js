@@ -7,7 +7,7 @@ class ContaPoupanca extends Conta {
 
     sacar(valor) {
         if (valor > this._saldo) {
-            throw new Error("SALDO INSUFICIENTE PARA SAQUE.");
+            throw new Error("SALDO INSUFICIENTE PARA SAQUE. )=");
         }
         this._saldo -= valor;
         console.log(`SAQUE DE ${valor} EFETUADO COM SUCESSO! =)`);

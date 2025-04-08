@@ -22,9 +22,10 @@ class Conta {
 
     deposito(valor) {
         if (valor <= 0) {
-            throw new Error("O VALOR DO DEPÓSITO DEVE SER POSITIVO.");
+            throw new Error("O VALOR DO DEPÓSITO DEVE SER POSITIVO. )=");
         }
         this._saldo += valor;
+        console.log("DEPÓSITO DE " + valor + " EFETUADO COM SUCESSO! =)")
     }
 
     sacar(valor) {
